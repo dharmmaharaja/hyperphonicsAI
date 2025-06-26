@@ -1,7 +1,7 @@
-streamlit
-google-cloud-pubsub
-google-cloud-storage
-google-cloud-firestore
-google-cloud-functions
-google-cloud-aiplatform
-vertexai
+streamlit>=1.35.0
+google-cloud-pubsub>=2.20.0
+google-cloud-storage>=2.14.0
+google-cloud-firestore>=2.15.0
+google-cloud-functions>=1.13.0
+google-cloud-aiplatform>=1.51.0
+vertexai>=0.0.1a1  # Optional/experimental GenAI SDK (if needed)

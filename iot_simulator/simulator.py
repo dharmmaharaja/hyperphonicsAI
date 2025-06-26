@@ -11,7 +11,6 @@ topic_path = publisher.topic_path(project_id, topic_id)
 def generate_sensor_data():
     return {
         "ph": round(random.uniform(5.5, 7.5), 2),
-        "ppm": random.randint(200, 800),
         "tds": random.randint(100, 500),
         "temperature": round(random.uniform(20, 35), 1),
         "image_id": f"leaf_{int(time.time())}.jpg"
